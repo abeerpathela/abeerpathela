@@ -8,7 +8,7 @@
 
 ## 🌟 About Me
 
-* 🎓 Passionate developer exploring **Web Development, DSA, and GenAI**
+* 🎓 Passionate developer exploring **Web Development and DSA**
 * 🚀 Currently learning **JavaScript, C++, and DSA (daily!)**
 * 💡 Love creating **frontend UI projects** with cool animations
 * 📚 Always building something new to level up

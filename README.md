@@ -64,7 +64,6 @@ An AI-powered SMS chatbot that lets anyone interact with a large language model 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-
 ---
 
 ## 🛠️ Skills & Tech Stack
@@ -104,20 +103,7 @@ An AI-powered SMS chatbot that lets anyone interact with a large language model 
 
 </div>
 
----
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=abeerpathela&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=ffffff" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abeerpathela&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=FF6B6B&currStreakLabel=A855F7" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abeerpathela&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=ffffff" height="130"/>
-
-</div>
-
----
 
 ## 🌐 Connect With Me
 

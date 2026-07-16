@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/hero-3d.svg?v=2" alt="Abeer Pathela - 3D hero banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/hero-banner.svg?v=3" alt="Abeer Pathela - 3D hero banner" width="100%" />
 
   <br/>
 

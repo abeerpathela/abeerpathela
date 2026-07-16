@@ -1,12 +1,12 @@
 <!--
-  GitHub Profile README � Abeer Pathela
-  Repo must be named exactly: abeerpathela (same as your username)
-  After first push: Actions ? "Generate 3D Profile Assets" ? Run workflow
+  GitHub Profile README - Abeer Pathela
+  Repo must be named exactly: abeerpathela
+  After first push: Actions -> Generate 3D Profile Assets -> Run workflow
 -->
 
 <div align="center">
 
-  <img src="./assets/hero-3d.svg" alt="Abeer Pathela � 3D hero banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/hero-3d.svg" alt="Abeer Pathela - 3D hero banner" width="100%" />
 
   <br/>
 
@@ -25,17 +25,17 @@
 ---
 
 <div align="center">
-  <img src="./assets/orbit-3d.svg" alt="Orbiting 3D objects" width="90%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/orbit-3d.svg" alt="Orbiting 3D objects" width="90%" />
 </div>
 
 ### About me
 
-Computer Science student at **Chitkara University** � building full-stack & AI-powered products with React, Node.js, TypeScript, PostgreSQL, and MongoDB.
+Computer Science student at **Chitkara University** - building full-stack and AI-powered products with React, Node.js, TypeScript, PostgreSQL, and MongoDB.
 
 I care about clean systems, sharp UI, and shipping things people can actually use.
 
 <div align="center">
-  <img src="./assets/crystal-field.svg" alt="Floating 3D crystal field" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/crystal-field.svg" alt="Floating 3D crystal field" width="100%" />
 </div>
 
 ---
@@ -43,7 +43,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Stack as living cubes
 
 <div align="center">
-  <img src="./assets/cube-stack.svg" alt="Animated 3D tech stack cubes" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/cube-stack.svg" alt="Animated 3D tech stack cubes" width="100%" />
 </div>
 
 <p align="center">
@@ -55,7 +55,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Isometric lab
 
 <div align="center">
-  <img src="./assets/isometric-lab.svg" alt="Isometric 3D coding lab" width="95%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/isometric-lab.svg" alt="Isometric 3D coding lab" width="95%" />
 </div>
 
 ---
@@ -63,7 +63,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Dimensional portal
 
 <div align="center">
-  <img src="./assets/portal-3d.svg" alt="3D portal animation" width="90%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/portal-3d.svg" alt="3D portal animation" width="90%" />
 </div>
 
 ---
@@ -71,7 +71,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Code DNA
 
 <div align="center">
-  <img src="./assets/dna-helix-3d.svg" alt="3D DNA helix animation" width="90%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/dna-helix-3d.svg" alt="3D DNA helix animation" width="90%" />
 </div>
 
 ---
@@ -97,15 +97,15 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 
 <div align="center">
 
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D green animated contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-green-animate.svg" alt="3D green animated contributions" width="100%" />
 
   <br/><br/>
 
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D season animated contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-season-animate.svg" alt="3D season animated contributions" width="100%" />
 
   <br/><br/>
 
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D night rainbow contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D night rainbow contributions" width="100%" />
 
 </div>
 
@@ -115,9 +115,9 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-snake.svg" />
-    <img alt="github contribution snake" src="./dist/github-contribution-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake.svg" />
   </picture>
 </div>
 
@@ -126,16 +126,16 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### What I'm into right now
 
 ```text
-   ???????????????????????????????????????????????
-   ?  ? Full-stack product builds (MERN + TS)    ?
-   ?  ? AI-powered apps & smart workflows        ?
-   ?  ? DSA + systems that stay fast                ?
-   ?  ? Interfaces that feel dimensional         ?
-   ???????????????????????????????????????????????
+   +---------------------------------------------+
+   |  > Full-stack product builds (MERN + TS)    |
+   |  > AI-powered apps and smart workflows      |
+   |  > DSA + systems that stay fast                |
+   |  > Interfaces that feel dimensional         |
+   +---------------------------------------------+
 ```
 
 <div align="center">
-  <img src="./assets/orbit-3d.svg" width="70%" alt="Orbit reprise" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/orbit-3d.svg" width="70%" alt="Orbit reprise" />
 </div>
 
 ---
@@ -149,6 +149,6 @@ I care about clean systems, sharp UI, and shipping things people can actually us
   <img src="https://komarev.com/ghpvc/?username=abeerpathela&style=for-the-badge&color=2ee6a8" alt="Profile views" />
 
   <h3>thanks for dropping into my little 3D corner of GitHub</h3>
-  <img src="./assets/crystal-field.svg" width="80%" alt="Crystal outro" />
+  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/crystal-field.svg" width="80%" alt="Crystal outro" />
 
 </div>

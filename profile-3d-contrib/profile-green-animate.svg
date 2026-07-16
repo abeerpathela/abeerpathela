@@ -12,9 +12,9 @@
     <polygon points="40,44 80,22 80,62 40,84" fill="#149e82"/>
   </g>
   <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#7dffd4">
-    3D contribution graph loading&
+    3D contribution graph loading...
   </text>
   <text x="600" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9fd6cb">
-    Run Actions ’ Generate 3D Profile Assets (once) to unlock the real graph
+    Run Actions - Generate 3D Profile Assets (once) to unlock the real graph
   </text>
 </svg>

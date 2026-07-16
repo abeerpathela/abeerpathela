@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <rect width="900" height="120" rx="10" fill="#0d1117"/>
+  <text x="450" y="55" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#2ee6a8">Contribution snake placeholder</text>
+  <text x="450" y="85" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#8b949e">Generated after first Actions run</text>
+  <circle cx="80" cy="60" r="8" fill="#2ee6a8"><animate attributeName="cx" values="80;820;80" dur="6s" repeatCount="indefinite"/></circle>
+</svg>

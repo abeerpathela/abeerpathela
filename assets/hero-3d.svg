@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Abeer Pathela 3D hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061018"/>
+      <stop offset="45%" stop-color="#0b2430"/>
+      <stop offset="100%" stop-color="#122018"/>
+    </linearGradient>
+    <linearGradient id="gridFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ee6a8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2ee6a8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#3dfff0" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#1a6b5c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#061018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dffd4"/>
+      <stop offset="100%" stop-color="#2bbf9a"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f8f75"/>
+      <stop offset="100%" stop-color="#0f4f42"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#149e82"/>
+      <stop offset="100%" stop-color="#0a3d33"/>
+    </linearGradient>
+    <linearGradient id="amberTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd27a"/>
+      <stop offset="100%" stop-color="#f0a24b"/>
+    </linearGradient>
+    <linearGradient id="amberLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c47a2e"/>
+      <stop offset="100%" stop-color="#7a4514"/>
+    </linearGradient>
+    <linearGradient id="amberRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d98a35"/>
+      <stop offset="100%" stop-color="#8a4f16"/>
+    </linearGradient>
+    <linearGradient id="cyanTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8ef7ff"/>
+      <stop offset="100%" stop-color="#3ec8d8"/>
+    </linearGradient>
+    <linearGradient id="cyanLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a8fa0"/>
+      <stop offset="100%" stop-color="#134855"/>
+    </linearGradient>
+    <linearGradient id="cyanRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#248fa3"/>
+      <stop offset="100%" stop-color="#0f3d48"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- perspective grid floor -->
+  <g opacity="0.45">
+    <path d="M0 250 L600 180 L1200 250 L1200 360 L0 360 Z" fill="url(#gridFade)"/>
+    <g stroke="#2ee6a8" stroke-opacity="0.25" stroke-width="1">
+      <path d="M600 180 L0 300"/>
+      <path d="M600 180 L120 320"/>
+      <path d="M600 180 L240 340"/>
+      <path d="M600 180 L360 350"/>
+      <path d="M600 180 L480 355"/>
+      <path d="M600 180 L720 355"/>
+      <path d="M600 180 L840 350"/>
+      <path d="M600 180 L960 340"/>
+      <path d="M600 180 L1080 320"/>
+      <path d="M600 180 L1200 300"/>
+      <path d="M80 280 H1120"/>
+      <path d="M160 300 H1040"/>
+      <path d="M240 320 H960"/>
+      <path d="M320 340 H880"/>
+    </g>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#7dffd4">
+    <circle cx="90" cy="70" r="2">
+      <animate attributeName="cy" values="70;40;70" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="110" r="1.5" fill="#ffd27a">
+      <animate attributeName="cy" values="110;80;110" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="60" r="2" fill="#8ef7ff">
+      <animate attributeName="cy" values="60;30;60" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="120" r="1.8">
+      <animate attributeName="cy" values="120;90;120" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="200" r="1.2" fill="#ffd27a">
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="210" r="1.4">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ISOMETRIC CUBE helper groups -->
+  <!-- Large emerald cube -->
+  <g transform="translate(130,70)">
+    <animateTransform attributeName="transform" type="translate" values="130,70;130,50;130,70" dur="5s" repeatCount="indefinite"/>
+    <polygon points="60,20 110,45 60,70 10,45" fill="url(#cubeTop)" filter="url(#soft)"/>
+    <polygon points="10,45 60,70 60,120 10,95" fill="url(#cubeLeft)"/>
+    <polygon points="60,70 110,45 110,95 60,120" fill="url(#cubeRight)"/>
+    <polygon points="60,20 110,45 60,70 10,45" fill="none" stroke="#b8ffe8" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- Amber pyramid -->
+  <g transform="translate(980,55)">
+    <animateTransform attributeName="transform" type="translate" values="980,55;980,35;980,55" dur="4.2s" repeatCount="indefinite"/>
+    <polygon points="70,15 120,95 70,75" fill="url(#amberRight)"/>
+    <polygon points="70,15 20,95 70,75" fill="url(#amberLeft)"/>
+    <polygon points="20,95 70,75 120,95" fill="url(#amberTop)" opacity="0.85"/>
+    <polygon points="70,15 20,95 120,95" fill="none" stroke="#ffe2a8" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Cyan floating cube -->
+  <g transform="translate(250,180)">
+    <animateTransform attributeName="transform" type="translate" values="250,180;250,165;250,180" dur="3.6s" repeatCount="indefinite"/>
+    <polygon points="40,10 75,28 40,46 5,28" fill="url(#cyanTop)"/>
+    <polygon points="5,28 40,46 40,80 5,62" fill="url(#cyanLeft)"/>
+    <polygon points="40,46 75,28 75,62 40,80" fill="url(#cyanRight)"/>
+  </g>
+
+  <!-- Small emerald cube right -->
+  <g transform="translate(900,175)">
+    <animateTransform attributeName="transform" type="translate" values="900,175;900,158;900,175" dur="4.8s" repeatCount="indefinite"/>
+    <polygon points="35,8 65,24 35,40 5,24" fill="url(#cubeTop)"/>
+    <polygon points="5,24 35,40 35,70 5,54" fill="url(#cubeLeft)"/>
+    <polygon points="35,40 65,24 65,54 35,70" fill="url(#cubeRight)"/>
+  </g>
+
+  <!-- Tiny amber cube -->
+  <g transform="translate(180,40)">
+    <animateTransform attributeName="transform" type="translate" values="180,40;195,28;180,40" dur="6s" repeatCount="indefinite"/>
+    <polygon points="22,4 40,14 22,24 4,14" fill="url(#amberTop)"/>
+    <polygon points="4,14 22,24 22,42 4,32" fill="url(#amberLeft)"/>
+    <polygon points="22,24 40,14 40,32 22,42" fill="url(#amberRight)"/>
+  </g>
+
+  <!-- Orbiting octahedron (diamond) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 600 170" to="360 600 170" dur="18s" repeatCount="indefinite"/>
+    <g transform="translate(600,40)">
+      <polygon points="0,-22 18,0 0,22 -18,0" fill="#3ec8d8" opacity="0.85"/>
+      <polygon points="0,-22 18,0 0,8" fill="#8ef7ff" opacity="0.9"/>
+      <polygon points="0,-22 -18,0 0,8" fill="#248fa3" opacity="0.9"/>
+    </g>
+  </g>
+
+  <!-- Center title block -->
+  <g>
+    <text x="600" y="145" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#eafff7" letter-spacing="2">
+      ABEER PATHELA
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#7dffd4" letter-spacing="4">
+      FULL-STACK ù AI ù 3D THINKING
+    </text>
+    <rect x="470" y="205" width="260" height="3" rx="2" fill="#2ee6a8" opacity="0.7">
+      <animate attributeName="width" values="80;260;80" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="560;470;560" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="245" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#b7d7cf">
+      building interfaces that feel alive
+    </text>
+  </g>
+
+  <!-- Ring / portal -->
+  <g transform="translate(600,300)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="180" ry="28" fill="none" stroke="#2ee6a8" stroke-width="2">
+      <animate attributeName="rx" values="160;200;160" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="120" ry="18" fill="none" stroke="#ffd27a" stroke-width="1.5">
+      <animate attributeName="rx" values="100;140;100" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+</svg>

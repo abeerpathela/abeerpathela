@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-label="Floating 3D crystal field">
+  <defs>
+    <linearGradient id="cfbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050d12"/><stop offset="100%" stop-color="#122820"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="220" rx="14" fill="url(#cfbg)"/>
+
+  <!-- row of crystals / tetrahedrons with staggered bob -->
+  <g transform="translate(80,110)">
+    <animateTransform attributeName="transform" type="translate" values="80,110;80,95;80,110" dur="2.8s" repeatCount="indefinite"/>
+    <polygon points="0,-36 22,18 -22,18" fill="#1f8f75" opacity="0.95"/>
+    <polygon points="0,-36 22,18 0,8" fill="#7dffd4"/>
+    <polygon points="0,-36 -22,18 0,8" fill="#149e82"/>
+  </g>
+  <g transform="translate(200,110)">
+    <animateTransform attributeName="transform" type="translate" values="200,110;200,90;200,110" dur="3.1s" begin="0.2s" repeatCount="indefinite"/>
+    <polygon points="0,-28 18,14 -18,14" fill="#c47a2e"/>
+    <polygon points="0,-28 18,14 0,6" fill="#ffd27a"/>
+    <polygon points="0,-28 -18,14 0,6" fill="#d98a35"/>
+  </g>
+  <g transform="translate(320,110)">
+    <animateTransform attributeName="transform" type="translate" values="320,110;320,92;320,110" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+    <polygon points="0,-40 24,20 -24,20" fill="#248fa3"/>
+    <polygon points="0,-40 24,20 0,10" fill="#8ef7ff"/>
+    <polygon points="0,-40 -24,20 0,10" fill="#2aa8b8"/>
+  </g>
+  <g transform="translate(440,110)">
+    <animateTransform attributeName="transform" type="translate" values="440,110;440,88;440,110" dur="3.4s" begin="0.1s" repeatCount="indefinite"/>
+    <!-- cube -->
+    <polygon points="0,-20 28,-4 0,12 -28,-4" fill="#7dffd4"/>
+    <polygon points="-28,-4 0,12 0,40 -28,24" fill="#0f4f42"/>
+    <polygon points="0,12 28,-4 28,24 0,40" fill="#149e82"/>
+  </g>
+  <g transform="translate(560,110)">
+    <animateTransform attributeName="transform" type="translate" values="560,110;560,94;560,110" dur="2.9s" begin="0.3s" repeatCount="indefinite"/>
+    <polygon points="0,-34 20,16 -20,16" fill="#a84a2e"/>
+    <polygon points="0,-34 20,16 0,8" fill="#ff9e7a"/>
+    <polygon points="0,-34 -20,16 0,8" fill="#c45a3a"/>
+  </g>
+  <g transform="translate(680,110)">
+    <animateTransform attributeName="transform" type="translate" values="680,110;680,86;680,110" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+    <circle cx="0" cy="8" r="22" fill="#134855"/>
+    <ellipse cx="-6" cy="0" rx="12" ry="10" fill="#8ef7ff" opacity="0.9"/>
+  </g>
+  <g transform="translate(800,110)">
+    <animateTransform attributeName="transform" type="translate" values="800,110;800,93;800,110" dur="2.7s" begin="0.15s" repeatCount="indefinite"/>
+    <polygon points="0,-22 18,0 0,22 -18,0" fill="#2ee6a8"/>
+    <polygon points="0,-22 18,0 0,4" fill="#b8ffe8"/>
+    <polygon points="0,-22 -18,0 0,4" fill="#1f8f75"/>
+  </g>
+  <g transform="translate(920,110)">
+    <animateTransform attributeName="transform" type="translate" values="920,110;920,98;920,110" dur="3s" begin="0.25s" repeatCount="indefinite"/>
+    <polygon points="0,-30 18,14 -18,14" fill="#8a4f16"/>
+    <polygon points="0,-30 18,14 0,6" fill="#ffd27a"/>
+    <polygon points="0,-30 -18,14 0,6" fill="#c47a2e"/>
+  </g>
+
+  <!-- ground glow -->
+  <ellipse cx="500" cy="190" rx="380" ry="14" fill="#2ee6a8" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+</svg>

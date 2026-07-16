@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="3D DNA helix of skills">
+  <defs>
+    <linearGradient id="dnaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061018"/><stop offset="100%" stop-color="#102820"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" rx="14" fill="url(#dnaBg)"/>
+
+  <!-- helix strands as animated paths -->
+  <g transform="translate(60,130)" stroke-width="3" fill="none">
+    <path id="strandA" d="M0,0 C40,-50 80,50 120,0 S200,-50 240,0 S320,50 360,0 S440,-50 480,0 S560,50 600,0 S680,-50 720,0 S800,50 840,0" stroke="#2ee6a8" opacity="0.85">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M0,0 C40,-50 80,50 120,0 S200,-50 240,0 S320,50 360,0 S440,-50 480,0 S560,50 600,0 S680,-50 720,0 S800,50 840,0;
+                M0,0 C40,50 80,-50 120,0 S200,50 240,0 S320,-50 360,0 S440,50 480,0 S560,-50 600,0 S680,50 720,0 S800,-50 840,0;
+                M0,0 C40,-50 80,50 120,0 S200,-50 240,0 S320,50 360,0 S440,-50 480,0 S560,50 600,0 S680,-50 720,0 S800,50 840,0"/>
+    </path>
+    <path d="M0,0 C40,50 80,-50 120,0 S200,50 240,0 S320,-50 360,0 S440,50 480,0 S560,-50 600,0 S680,50 720,0 S800,-50 840,0" stroke="#ffd27a" opacity="0.8">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M0,0 C40,50 80,-50 120,0 S200,50 240,0 S320,-50 360,0 S440,50 480,0 S560,-50 600,0 S680,50 720,0 S800,-50 840,0;
+                M0,0 C40,-50 80,50 120,0 S200,-50 240,0 S320,50 360,0 S440,-50 480,0 S560,50 600,0 S680,-50 720,0 S800,50 840,0;
+                M0,0 C40,50 80,-50 120,0 S200,50 240,0 S320,-50 360,0 S440,50 480,0 S560,-50 600,0 S680,50 720,0 S800,-50 840,0"/>
+    </path>
+  </g>
+
+  <!-- rung cubes / nodes -->
+  <g>
+    <g transform="translate(140,95)">
+      <animateTransform attributeName="transform" type="translate" values="140,95;140,165;140,95" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#8ef7ff"/>
+    </g>
+    <g transform="translate(260,165)">
+      <animateTransform attributeName="transform" type="translate" values="260,165;260,95;260,165" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#7dffd4"/>
+    </g>
+    <g transform="translate(380,95)">
+      <animateTransform attributeName="transform" type="translate" values="380,95;380,165;380,95" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#ffd27a"/>
+    </g>
+    <g transform="translate(500,165)">
+      <animateTransform attributeName="transform" type="translate" values="500,165;500,95;500,165" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#ff9e7a"/>
+    </g>
+    <g transform="translate(620,95)">
+      <animateTransform attributeName="transform" type="translate" values="620,95;620,165;620,95" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#8ef7ff"/>
+    </g>
+    <g transform="translate(740,165)">
+      <animateTransform attributeName="transform" type="translate" values="740,165;740,95;740,165" dur="4s" repeatCount="indefinite"/>
+      <rect width="10" height="10" rx="2" fill="#7dffd4"/>
+    </g>
+  </g>
+
+  <!-- floating mini cubes -->
+  <g opacity="0.9">
+    <g transform="translate(80,40)">
+      <animateTransform attributeName="transform" type="translate" values="80,40;80,28;80,40" dur="3s" repeatCount="indefinite"/>
+      <polygon points="12,0 24,7 12,14 0,7" fill="#2ee6a8"/>
+      <polygon points="0,7 12,14 12,26 0,19" fill="#0f4f42"/>
+      <polygon points="12,14 24,7 24,19 12,26" fill="#149e82"/>
+    </g>
+    <g transform="translate(800,50)">
+      <animateTransform attributeName="transform" type="translate" values="800,50;800,36;800,50" dur="3.4s" repeatCount="indefinite"/>
+      <polygon points="0,-12 10,4 0,1" fill="#ffd27a"/>
+      <polygon points="0,-12 -10,4 0,1" fill="#c47a2e"/>
+      <polygon points="-10,4 10,4 0,1" fill="#8a4f16"/>
+    </g>
+  </g>
+
+  <text x="450" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9fd6cb" letter-spacing="3">
+    CODE DNA · STRUCTURE · MOTION · GROWTH
+  </text>
+</svg>

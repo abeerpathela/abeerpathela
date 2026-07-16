@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Orbiting 3D objects">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#12303a"/>
+      <stop offset="100%" stop-color="#050d12"/>
+    </radialGradient>
+    <linearGradient id="t1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8ef7ff"/><stop offset="100%" stop-color="#2aa8b8"/>
+    </linearGradient>
+    <linearGradient id="t2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dffd4"/><stop offset="100%" stop-color="#1f8f75"/>
+    </linearGradient>
+    <linearGradient id="t3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd27a"/><stop offset="100%" stop-color="#d98a35"/>
+    </linearGradient>
+    <linearGradient id="t4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9e7a"/><stop offset="100%" stop-color="#c45a3a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="320" rx="18" fill="url(#space)"/>
+
+  <!-- orbital rings -->
+  <g transform="translate(450,160)" fill="none" stroke-opacity="0.35">
+    <ellipse cx="0" cy="0" rx="240" ry="70" stroke="#2ee6a8" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="180" ry="50" stroke="#ffd27a" stroke-width="1.2">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="120" ry="34" stroke="#8ef7ff" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- core icosa-ish gem -->
+  <g transform="translate(450,160)">
+    <animateTransform attributeName="transform" type="translate" values="450,160;450,150;450,160" dur="3s" repeatCount="indefinite"/>
+    <polygon points="0,-42 36,-14 22,34 -22,34 -36,-14" fill="#0f3d48" stroke="#8ef7ff" stroke-width="1.5"/>
+    <polygon points="0,-42 36,-14 0,8" fill="url(#t1)" opacity="0.95"/>
+    <polygon points="0,-42 -36,-14 0,8" fill="url(#t2)" opacity="0.9"/>
+    <polygon points="36,-14 22,34 0,8" fill="#1f6f7a" opacity="0.95"/>
+    <polygon points="-36,-14 -22,34 0,8" fill="#14555e" opacity="0.95"/>
+    <circle cx="0" cy="0" r="6" fill="#eafff7">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- orbiting cube -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 160" to="360 450 160" dur="12s" repeatCount="indefinite"/>
+    <g transform="translate(690,160)">
+      <polygon points="0,-18 22,-6 0,6 -22,-6" fill="url(#t2)"/>
+      <polygon points="-22,-6 0,6 0,28 -22,16" fill="#0f4f42"/>
+      <polygon points="0,6 22,-6 22,16 0,28" fill="#149e82"/>
+    </g>
+  </g>
+
+  <!-- orbiting pyramid -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="90 450 160" to="450 450 160" dur="16s" repeatCount="indefinite"/>
+    <g transform="translate(270,160)">
+      <polygon points="0,-24 20,16 0,8" fill="url(#t3)"/>
+      <polygon points="0,-24 -20,16 0,8" fill="#c47a2e"/>
+      <polygon points="-20,16 20,16 0,8" fill="#8a4f16"/>
+    </g>
+  </g>
+
+  <!-- orbiting octahedron -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="180 450 160" to="540 450 160" dur="10s" repeatCount="indefinite"/>
+    <g transform="translate(450,50)">
+      <polygon points="0,-20 16,0 0,20 -16,0" fill="url(#t4)"/>
+      <polygon points="0,-20 16,0 0,4" fill="#ffc2a8"/>
+      <polygon points="0,-20 -16,0 0,4" fill="#a84a2e"/>
+    </g>
+  </g>
+
+  <!-- orbiting sphere (shaded circle stack) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="270 450 160" to="630 450 160" dur="14s" repeatCount="indefinite"/>
+    <g transform="translate(450,250)">
+      <circle cx="0" cy="0" r="16" fill="#134855"/>
+      <ellipse cx="-4" cy="-5" rx="10" ry="8" fill="#8ef7ff" opacity="0.85"/>
+      <circle cx="5" cy="4" r="3" fill="#050d12" opacity="0.25"/>
+    </g>
+  </g>
+
+  <text x="450" y="300" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#9fd6cb" letter-spacing="3">
+    ORBITING GEOMETRY · IDEAS IN MOTION
+  </text>
+</svg>

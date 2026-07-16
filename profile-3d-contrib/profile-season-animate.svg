@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <rect width="1200" height="280" rx="12" fill="#0b1a22"/>
+  <g transform="translate(520,70)">
+    <animateTransform attributeName="transform" type="translate" values="520,70;520,55;520,70" dur="3s" repeatCount="indefinite"/>
+    <polygon points="0,-40 80,20 0,8" fill="#ffd27a"/>
+    <polygon points="0,-40 -80,20 0,8" fill="#c47a2e"/>
+    <polygon points="-80,20 80,20 0,8" fill="#8a4f16"/>
+  </g>
+  <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#ffd27a">Season 3D graph placeholder</text>
+  <text x="600" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#c9b89a">Replaced automatically by the GitHub Action</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Animated 3D tech cubes">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071418"/><stop offset="100%" stop-color="#0f2430"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="280" rx="14" fill="url(#bg2)"/>
+
+  <!-- helper: draw cubes with labels -->
+  <!-- React -->
+  <g transform="translate(80,90)">
+    <animateTransform attributeName="transform" type="translate" values="80,90;80,75;80,90" dur="3.2s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#61dafb"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#1b6f86"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#249bb8"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">React</text>
+  </g>
+
+  <!-- Node -->
+  <g transform="translate(220,90)">
+    <animateTransform attributeName="transform" type="translate" values="220,90;220,72;220,90" dur="3.6s" begin="0.2s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#68d391"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#276749"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#38a169"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">Node.js</text>
+  </g>
+
+  <!-- TypeScript -->
+  <g transform="translate(360,90)">
+    <animateTransform attributeName="transform" type="translate" values="360,90;360,70;360,90" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#63b3ed"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#2b6cb0"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#3182ce"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">TypeScript</text>
+  </g>
+
+  <!-- Mongo -->
+  <g transform="translate(500,90)">
+    <animateTransform attributeName="transform" type="translate" values="500,90;500,74;500,90" dur="3.8s" begin="0.1s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#9ae6b4"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#22543d"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#2f855a"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">MongoDB</text>
+  </g>
+
+  <!-- PostgreSQL -->
+  <g transform="translate(640,90)">
+    <animateTransform attributeName="transform" type="translate" values="640,90;640,68;640,90" dur="3.5s" begin="0.3s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#90cdf4"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#2c5282"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#2b6cb0"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">PostgreSQL</text>
+  </g>
+
+  <!-- AI -->
+  <g transform="translate(780,90)">
+    <animateTransform attributeName="transform" type="translate" values="780,90;780,76;780,90" dur="3.1s" begin="0.5s" repeatCount="indefinite"/>
+    <polygon points="40,0 80,22 40,44 0,22" fill="#fbd38d"/>
+    <polygon points="0,22 40,44 40,84 0,62" fill="#9c4221"/>
+    <polygon points="40,44 80,22 80,62 40,84" fill="#dd6b20"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c9f0ff">AI Apps</text>
+  </g>
+
+  <text x="450" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#7dffd4" letter-spacing="3">
+    TECH STACK · BUILT AS LIVING CUBES
+  </text>
+</svg>

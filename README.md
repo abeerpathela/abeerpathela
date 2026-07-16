@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/hero-3d.svg" alt="Abeer Pathela - 3D hero banner" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/hero-3d.svg?v=2" alt="Abeer Pathela - 3D hero banner" width="100%" />
 
   <br/>
 
@@ -25,7 +25,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/orbit-3d.svg" alt="Orbiting 3D objects" width="90%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/orbit-3d.svg?v=2" alt="Orbiting 3D objects" width="90%" />
 </div>
 
 ### About me
@@ -35,7 +35,7 @@ Computer Science student at **Chitkara University** - building full-stack and AI
 I care about clean systems, sharp UI, and shipping things people can actually use.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/crystal-field.svg" alt="Floating 3D crystal field" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/crystal-field.svg?v=2" alt="Floating 3D crystal field" width="100%" />
 </div>
 
 ---
@@ -43,7 +43,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Stack as living cubes
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/cube-stack.svg" alt="Animated 3D tech stack cubes" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/cube-stack.svg?v=2" alt="Animated 3D tech stack cubes" width="100%" />
 </div>
 
 <p align="center">
@@ -55,7 +55,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Isometric lab
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/isometric-lab.svg" alt="Isometric 3D coding lab" width="95%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/isometric-lab.svg?v=2" alt="Isometric 3D coding lab" width="95%" />
 </div>
 
 ---
@@ -63,7 +63,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Dimensional portal
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/portal-3d.svg" alt="3D portal animation" width="90%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/portal-3d.svg?v=2" alt="3D portal animation" width="90%" />
 </div>
 
 ---
@@ -71,7 +71,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ### Code DNA
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/dna-helix-3d.svg" alt="3D DNA helix animation" width="90%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/dna-helix-3d.svg?v=2" alt="3D DNA helix animation" width="90%" />
 </div>
 
 ---
@@ -97,15 +97,15 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-green-animate.svg" alt="3D green animated contributions" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/profile-3d-contrib/profile-green-animate.svg?v=2" alt="3D green animated contributions" width="100%" />
 
   <br/><br/>
 
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-season-animate.svg" alt="3D season animated contributions" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/profile-3d-contrib/profile-season-animate.svg?v=2" alt="3D season animated contributions" width="100%" />
 
   <br/><br/>
 
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D night rainbow contributions" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/profile-3d-contrib/profile-night-rainbow.svg?v=2" alt="3D night rainbow contributions" width="100%" />
 
 </div>
 
@@ -115,9 +115,9 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/dist/github-contribution-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/dist/github-contribution-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/dist/github-contribution-snake.svg?v=2" />
+    <img alt="github contribution snake" src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/dist/github-contribution-snake.svg?v=2" />
   </picture>
 </div>
 
@@ -135,7 +135,7 @@ I care about clean systems, sharp UI, and shipping things people can actually us
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/orbit-3d.svg" width="70%" alt="Orbit reprise" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/orbit-3d.svg?v=2" width="70%" alt="Orbit reprise" />
 </div>
 
 ---
@@ -149,6 +149,6 @@ I care about clean systems, sharp UI, and shipping things people can actually us
   <img src="https://komarev.com/ghpvc/?username=abeerpathela&style=for-the-badge&color=2ee6a8" alt="Profile views" />
 
   <h3>thanks for dropping into my little 3D corner of GitHub</h3>
-  <img src="https://raw.githubusercontent.com/abeerpathela/abeerpathela/main/assets/crystal-field.svg" width="80%" alt="Crystal outro" />
+  <img src="https://cdn.jsdelivr.net/gh/abeerpathela/abeerpathela@main/assets/crystal-field.svg?v=2" width="80%" alt="Crystal outro" />
 
 </div>

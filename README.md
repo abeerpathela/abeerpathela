@@ -22,9 +22,9 @@
          . %%==+#%@@@@@@@%%%#+===*#@@@@@@@@@@@%*=--%@=             Hobbies: .............. Building Projects, DSA, Open Source
      . :=---+#%%%%##%%##%%%%@%*++*%@%%#*++*******%#*=::-=. .
      . -*+=+#*%+**%%#%@@##%##@@%%@%*##*#%%**#*==-#**#-=+*- .
-     . .==+##=#++*##**%#+**++@#-:+@+******+*#*==-*-+#=--=: .       ─ Contact ───────────
+     . .==+##=#++*##**%#+**++@#-:+@+******+*#*==-*-+#=--=: .       ─ Contact ─────────── +91 9478045267
       . :==*#=**=+++***+*+==*%=-::*#-=+****+==--=*:*#=--:..
-       ..-==#==*+==========*%+=-::-#*=-==------=*=-*+--:.          Email: ................ your-email@example.com
+       ..-==#==*+==========*%+=-::-#*=-==------=*=-*+--:.          Email: ................ pathelaabeer@gmail.com
        . :==#*=++++++++++**#+--::::-+*++========--=#=--. .
        . .==+%+=+======---=++#*+==+*=------------=**--:            GitHub: ............... github.com/abeerpathela
         ..-=+@%++====----:-+#@%%%##%*=::::-------*%*--. .          LinkedIn: ............. linkedin.com/in/abeerpathela
@@ -140,7 +140,7 @@ Hi, I'm **Abeer Pathela**, a Computer Science undergraduate passionate about cre
 ## 🌐 Connect With Me
 
 - 💼 LinkedIn: https://linkedin.com/in/abeerpathela
-- 📧 Email: your-email@example.com
+- 📧 Email: pathelaabeer@gmail
 - 💻 GitHub: https://github.com/abeerpathela
 
 ---
